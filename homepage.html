@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .logout {
+            display: flex;
+            align-items: center;
+        }
+
+        .logout img {
+            height: 20px;
+            margin-right: 5px;
+        }
+
+        section {
+            margin: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Homepage</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="linkstoinsertionpage.php">Insertion links</a></li>
+            <li><a href="index.php">Display table</a></li>
+            <li><a href="reports.php">Generate report</a><li>
+        </ul>
+        <div class="logout">
+            <form method="post" action="userlogin.php">
+                <button type="submit" name="logout">
+                    <img src="C:\Users\varti\Downloads\logout.png" alt="Logout">
+                </button>
+            </form>
+        </div>
+    </nav>
+    <section>
+        <h2></h2>
+        <p></p>
+    </section>
+</body>
+</html>
